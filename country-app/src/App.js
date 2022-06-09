@@ -37,7 +37,10 @@ function App() {
 
   return (
     <div>
-    App
+    
+    <h1>Country App</h1>
+    {isLoading && <h2>Loading...</h2>}
+    {error && <h2>{error.message}</h2>}
     </div>
   );
 }
