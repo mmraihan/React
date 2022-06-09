@@ -5,10 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const todoTitle = "This is title";
+const todoDesc = "This is Description";
+const date =new Date();
+const currentYear = date.getFullYear();
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ <div>
+   <h1>Todo app</h1>
+   <h3>Call Family</h3>
+   <h3>{todoTitle}</h3>
+   <p>{currentYear}</p>
+
+ </div>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
