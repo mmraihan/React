@@ -17,6 +17,13 @@ export default class STATE extends Component {
       count: this.state.count +1
     })
   }
+
+  handleDecrement=()=>{
+    console.log("Clicked");
+    this.setState({
+      count: this.state.count -1
+    })
+  }
   render() {
    
 
@@ -25,6 +32,7 @@ export default class STATE extends Component {
     <div>
      <h1> count: {count}</h1>
         <button onClick={this.handleIncrement}>+</button>
+        <button onClick={this.handleDecrement}>-</button>
 
     </div>
     )
