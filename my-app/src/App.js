@@ -1,8 +1,12 @@
 import React from 'react'
+import STATE from './STATE'
 
 function App() {
   return (
-    <div>Hello</div>
+    <div>
+      <STATE count="0"/>
+    </div>
+  
   )
 }
 
