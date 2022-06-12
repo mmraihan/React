@@ -1,11 +1,11 @@
 import React from 'react'
-import EVENT_HANDLER_CLASS from './components/EVENT_HANDLER_CLASS/index'
+import EVENT_BINDING from './components/EVENT_BINDING/index'
 
 
 function App() {
   return (
     <div>
-    <EVENT_HANDLER_CLASS/>
+    <EVENT_BINDING/>
     </div>
   
   )
