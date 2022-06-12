@@ -1,11 +1,11 @@
 import React from 'react'
-import { React_Bootstrap } from './components/React_Bootstrap'
+import EVENT_HANDLER_CLASS from './components/EVENT_HANDLER_CLASS/index'
 
 
 function App() {
   return (
     <div>
-     <React_Bootstrap/>
+    <EVENT_HANDLER_CLASS/>
     </div>
   
   )
