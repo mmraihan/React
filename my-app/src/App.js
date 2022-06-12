@@ -1,10 +1,11 @@
 import React from 'react'
-import STATE from './STATE'
+import { React_Bootstrap } from './components/React_Bootstrap'
+
 
 function App() {
   return (
     <div>
-      <STATE count="0"/>
+     <React_Bootstrap/>
     </div>
   
   )
