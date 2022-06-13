@@ -1,11 +1,11 @@
-import React from 'react'
-import FORM from './components/FORM/Form'
+import React from 'react';
+import Home from './components/STATE_LIFTING/Home';
 
 
 function App() {
   return (
     <div>
-      <FORM/>
+      <Home/>
     </div>
   
   )
