@@ -1,11 +1,13 @@
 import React from 'react';
-import Home from './components/STATE_LIFTING/Home';
+import { Child } from './components/STATE_LIFTING/Child';
+
 
 
 function App() {
+  const data ="I an from parent";
   return (
     <div>
-      <Home/>
+      <Child data={data}/>
     </div>
   
   )
