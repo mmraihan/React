@@ -1,19 +1,12 @@
 import React from 'react';
-import { Child } from './components/STATE_LIFTING/Child';
-
+import { DataFetch } from './components/HOOKS/useEffect/DataFetch';
 
 
 function App() {
-  const data ="I an from parent";
-  const handleChildData=(childData)=>{
-    console.log(childData)
+  return ( 
+    <DataFetch/>
+ )
   }
-  return (
-    <div>
-      <Child data={data} onChildData={handleChildData}/>
-    </div>
-  
-  )
-}
+
 
 export default App
