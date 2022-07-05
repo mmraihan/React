@@ -6,4 +6,4 @@ export default function TodoSingle(props) {
         <p>{props.todo}</p>
     </div>
   )
-}
+}   

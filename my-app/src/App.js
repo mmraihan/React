@@ -1,10 +1,11 @@
 import React from 'react';
-import { DataFetch } from './components/HOOKS/useEffect/DataFetch';
+
+import { Component1 } from './components/PROPS_DRILLS/Component1';
 
 
 function App() {
   return ( 
-    <DataFetch/>
+    <Component1/>
  )
   }
 
